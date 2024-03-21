@@ -144,6 +144,23 @@
     padding: 0;
     padding-top: 0.5rem;
   }
+  .card-content {
+    padding: 10px;
+  }
+  .job-location {
+    flex-direction: column;
+    gap: 1px;
+  }
+  .job-location span {
+    align-self: baseline;
+  }
+}
+
+@media only screen and (min-width: 341px) and (max-width: 364px) {
+  .label {
+    white-space: nowrap;
+    padding: 2px 4px;
+  }
 }
 
 @media only screen and (max-width: 380px) {
