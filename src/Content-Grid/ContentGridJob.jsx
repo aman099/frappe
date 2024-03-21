@@ -227,7 +227,7 @@ const cardItemsJob = [
 function ContentGridJob() {
   return (
     <main
-      className="content grid grid-cols-2 gap-8 mx-5 py-4
+      className="content content-job grid grid-cols-2 gap-8 mx-5 py-4
 mb-16"
     >
       <ContentCardJob cardItemsJob={cardItemsJob} />

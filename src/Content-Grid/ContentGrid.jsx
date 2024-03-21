@@ -321,7 +321,7 @@ function ContentGrid({ index, option }) {
     <>
       {index === 0 ? (
         <main
-          className="content grid grid-cols-3 gap-8 mx-5 py-4
+          className="content content-courses grid grid-cols-3 gap-8 mx-5 py-4
     mb-16"
         >
           <ContentCard cardItems={cardItems} option={option} />

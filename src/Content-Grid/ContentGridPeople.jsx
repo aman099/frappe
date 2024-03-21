@@ -139,7 +139,7 @@ const cardItemsPeople = [
 function ContentGridPeople() {
   return (
     <div
-      className="content grid grid-cols-4 gap-8 mx-5 py-4
+      className="content content-people grid grid-cols-4 gap-8 mx-5 py-4
     mb-40"
     >
       <ContentCardPeople cardItemsPeople={cardItemsPeople} />

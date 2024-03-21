@@ -39,7 +39,7 @@ function ContentCard({ cardItems, option }) {
                 )}
               </div>
 
-              <div className="padding-container p-6">
+              <div className="course-info-container padding-container p-6">
                 <div className="info-container flex justify-between items-center mb-2">
                   <span>
                     <i className="fa-solid fa-book-open"></i> {card.info_1}
@@ -138,7 +138,7 @@ function ContentCard({ cardItems, option }) {
                 )}
               </div>
 
-              <div className="padding-container p-6">
+              <div className="course-info-container padding-container p-6">
                 <div className="info-container flex justify-between items-center mb-2">
                   <span>
                     <i className="fa-solid fa-book-open"></i> {card.info_1}
@@ -238,7 +238,7 @@ function ContentCard({ cardItems, option }) {
                 )}
               </div>
 
-              <div className="padding-container p-6">
+              <div className="course-info-container padding-container p-6">
                 <div className="info-container flex justify-between items-center mb-2">
                   <span>
                     <i className="fa-solid fa-book-open"></i> {card.info_1}

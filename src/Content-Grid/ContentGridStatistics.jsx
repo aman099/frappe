@@ -31,7 +31,7 @@ const cardItemsStatistics = [
 function ContentGridStatistics() {
   return (
     <div
-      className="content grid grid-cols-5 gap-8 mx-5 py-4
+      className="content content-statistics grid grid-cols-5 gap-8 mx-5 py-4
 mb-10"
     >
       <ContentCardStatistics cardItemsStatistics={cardItemsStatistics} />

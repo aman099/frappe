@@ -138,6 +138,40 @@
   .list.popup-parent {
     margin-right: 1rem;
   }
+
+  /* .people-name span {
+    font-size: 17.5px;
+  } */
+}
+@media only screen and (max-width: 600px) {
+  .mx-7 {
+    /* margin-left: 0.5rem;
+    margin-right: 0.5rem; */
+    margin: 0 4px;
+  }
+  .hamburger-menu {
+    margin-right: 20px;
+  }
+
+  .details-containe h5 {
+    font-size: 1.225rem;
+  }
+  .details-containe p {
+    font-size: 1rem;
+  }
+
+  .profile-container {
+    align-items: center;
+  }
+  .profile-information span {
+    font-size: 1rem;
+  }
+  .pricing {
+    font-size: 1rem;
+  }
+  .list {
+    font-size: large;
+  }
 }
 @media only screen and (max-width: 400px) {
   .px-5 {
@@ -153,6 +187,9 @@
   }
   .job-location span {
     align-self: baseline;
+  }
+  .course-info-container {
+    padding: 0.5rem;
   }
 }
 
@@ -171,8 +208,9 @@
 
 @media only screen and (max-width: 340px) {
   .mx-7 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    /* margin-left: 0.5rem;
+    margin-right: 0.5rem; */
+    margin: 0 3px;
   }
   /* .card-content {
     padding: 10px;
@@ -182,5 +220,21 @@
   }
   .date {
     font-size: 0.65rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .content-people {
+    display: flex;
+    flex-direction: column;
+  }
+  .people-name span {
+    font-size: 16.5px;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .people-name span {
+    font-size: 16.5px;
   }
 }
