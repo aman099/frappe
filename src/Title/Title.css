@@ -1,0 +1,65 @@
+.title-content {
+  position: relative;
+  color: #55555585;
+}
+.title-content:hover {
+  color: #555555a7;
+}
+.title-content.active {
+  position: relative;
+  color: #000;
+}
+
+.title-1::after {
+  content: "";
+  bottom: -16.5px;
+  left: 0px;
+  width: 60px;
+  height: 1px;
+  position: absolute;
+  border-bottom: 1px solid #000;
+  opacity: 0;
+}
+.title-content.active::after {
+  opacity: 1;
+}
+
+.title-2::after {
+  content: "";
+  bottom: -16.5px;
+  left: 0px;
+  width: 110px;
+  height: 1px;
+  position: absolute;
+  border-bottom: 1px solid #000;
+  opacity: 0;
+}
+
+.title-abs {
+  position: relative;
+  cursor: pointer;
+}
+
+.title-abs::after {
+  content: "";
+  position: absolute;
+  margin-left: 6px;
+  height: 24px;
+  width: 24px;
+  border: 1px solid #55555585;
+  color: #55555585;
+  border-radius: 6px;
+}
+.abs-1::after {
+  content: "18";
+  text-align: center;
+}
+.abs-2::after {
+  content: "0";
+  text-align: center;
+}
+
+.title-content.active .title-abs::after {
+  color: #000;
+  border: 1px solid #000;
+}
